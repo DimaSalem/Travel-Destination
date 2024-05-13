@@ -1,0 +1,23 @@
+#footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer h3 {
+    margin-bottom: 10px;
+}
+
+.socials a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
