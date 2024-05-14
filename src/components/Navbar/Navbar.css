@@ -1,0 +1,15 @@
+nav {
+    background-color: #67a3f7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    font-size: medium;
+}
+
+nav h1 {
+    font-size: xx-large
+}

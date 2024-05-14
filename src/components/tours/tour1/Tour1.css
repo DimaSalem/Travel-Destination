@@ -1,0 +1,19 @@
+#tour {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    /* Adjust width as needed */
+}
+
+#tour img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#tour h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
