@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 
 function TourDetails() {
     const { id } = useParams();
+    //when the arrow function return true find func. will return this value that fullfill the condition
     const city = data.find(city => city.id == id);
 
     const [showMore, setShowMore] = useState(false);
@@ -26,7 +27,7 @@ function TourDetails() {
                     <p>
                         {showMore ? city.info : `${city.info.slice(0, 300)}...`}
                         <button onClick={toggleShowMore}>
-                            {showMore ? "Show less" : "Show more"}
+                            {showMore ? "see less" : "see more"}
                         </button>
                     </p>
 

@@ -9,12 +9,9 @@ function Tours() {
         <div id="tours">
             {toursData.map(tour => {
                 return (
-                    <div key={tour.id}>
-                        <Link to={`/city/${tour.id}`} >
-                            <Tour1 name={tour.name} image={tour.image} />
-                        </Link>
-                    </div>
-
+                    <Link to={`/city/${tour.id}`} key={tour.id}>
+                        <Tour1 name={tour.name} image={tour.image} />
+                    </Link>
                 )
             })}
         </div>
