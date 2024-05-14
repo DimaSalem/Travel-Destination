@@ -1,0 +1,41 @@
+/* TourDetails.css */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.details-div {
+    margin-bottom: 20px;
+}
+
+.details-div h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details-div img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.details-div.text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.details-div.text button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details-div.text button:hover {
+    background-color: #0056b3;
+}

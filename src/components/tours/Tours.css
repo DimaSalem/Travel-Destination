@@ -1,16 +1,5 @@
 #tours {
-    border: 1px solid #777777;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
-#tours h2 {
-    margin-bottom: 10px;
-}
-
-#tours img {
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
