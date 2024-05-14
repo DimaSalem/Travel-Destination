@@ -1,5 +1,3 @@
-/* TourDetails.css */
-
 main {
     display: flex;
     flex-direction: column;
@@ -9,6 +7,7 @@ main {
 
 .details-div {
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .details-div h1 {
@@ -21,13 +20,17 @@ main {
     border-radius: 8px;
 }
 
+.details-div.text {
+    max-width: 800px;
+}
+
 .details-div.text p {
     font-size: 16px;
     line-height: 1.5;
 }
 
 .details-div.text button {
-    margin-top: 10px;
+
     background-color: #007bff;
     color: #fff;
     border: none;

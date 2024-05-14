@@ -18,16 +18,21 @@ function TourDetails() {
             <div className="details-div">
                 <h1>{city.name}</h1>
                 <img src={city.image} alt={city.name} />
+                <p className="price">Price: ${city.price}</p>
             </div>
 
-            <div className="details-div text">
-                <p>
-                    {showMore ? city.info : `${city.info.slice(0, 300)}...`}
-                    <button onClick={toggleShowMore}>
-                        {showMore ? "Show less" : "Show more"}
-                    </button>
-                </p>
+            <div id='container'>
+                <div className="details-div text">
+                    <p>
+                        {showMore ? city.info : `${city.info.slice(0, 300)}...`}
+                        <button onClick={toggleShowMore}>
+                            {showMore ? "Show less" : "Show more"}
+                        </button>
+                    </p>
+
+                </div>
             </div>
+
         </main>
     );
 }
